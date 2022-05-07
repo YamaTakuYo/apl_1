@@ -1,3 +1,61 @@
 /* ヘッダー */
+
+.header {
+  background-color: red;
+  padding: 20px 0;
+
+}
+
 /* フッター */
+
+.footer {
+  background-color: blue;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 /* メイン */
+
+.main{
+}
+
+.bar{
+  display: flex;
+}
+
+/* サイドバー */
+
+.side_bar{
+  background-color: green;
+  width: 200px;
+  height: 100vh;
+}
+
+.side-header{
+  color: white;
+}
+.side-main{
+  color: white;
+}
+.side-footer{
+  color: white;
+}
+
+/* メインバー */
+
+.main_bar{
+  background-color: black;
+  width: calc(100% - 200px)
+}
+
+.main-header{
+  color: white;
+}
+.main-main{
+  color: white;
+}
+.main-footer{
+  color: white;
+}
